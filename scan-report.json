@@ -1,0 +1,378 @@
+[
+  {
+    "step": 1,
+    "url": "http://localhost:8080/index.html",
+    "state": "HOME",
+    "actions": [
+      {
+        "id": 0,
+        "kind": "click",
+        "label": "Home"
+      },
+      {
+        "id": 1,
+        "kind": "click",
+        "label": "Products"
+      },
+      {
+        "id": 2,
+        "kind": "click",
+        "label": "Cart"
+      },
+      {
+        "id": 3,
+        "kind": "click",
+        "label": "Orders"
+      },
+      {
+        "id": 4,
+        "kind": "click",
+        "label": "Shop Now"
+      },
+      {
+        "id": 5,
+        "kind": "click",
+        "label": "Shop Now"
+      },
+      {
+        "id": 6,
+        "kind": "click",
+        "label": "View"
+      },
+      {
+        "id": 7,
+        "kind": "click",
+        "label": "View"
+      },
+      {
+        "id": 8,
+        "kind": "click",
+        "label": "View"
+      },
+      {
+        "id": 9,
+        "kind": "click",
+        "label": "View"
+      },
+      {
+        "id": 10,
+        "kind": "click",
+        "label": "View"
+      },
+      {
+        "id": 11,
+        "kind": "click",
+        "label": "View"
+      }
+    ],
+    "llm_command": "CLICK 1",
+    "time": "2025-09-27T04:28:42.248Z"
+  },
+  {
+    "step": 2,
+    "url": "http://localhost:8080/product.html",
+    "state": "HOME",
+    "actions": [
+      {
+        "id": 0,
+        "kind": "click",
+        "label": "Home"
+      },
+      {
+        "id": 1,
+        "kind": "click",
+        "label": "Products"
+      },
+      {
+        "id": 2,
+        "kind": "click",
+        "label": "Cart"
+      },
+      {
+        "id": 3,
+        "kind": "click",
+        "label": "Orders"
+      },
+      {
+        "id": 4,
+        "kind": "click",
+        "label": "Add Clothes to Cart"
+      },
+      {
+        "id": 5,
+        "kind": "click",
+        "label": "Add Shoes to Cart"
+      },
+      {
+        "id": 6,
+        "kind": "click",
+        "label": "Add Bag to Cart"
+      }
+    ],
+    "llm_command": "CLICK 4",
+    "time": "2025-09-27T04:28:44.323Z"
+  },
+  {
+    "step": 3,
+    "url": "http://localhost:8080/product.html",
+    "state": "PRODUCTS",
+    "actions": [
+      {
+        "id": 0,
+        "kind": "click",
+        "label": "Home"
+      },
+      {
+        "id": 1,
+        "kind": "click",
+        "label": "Products"
+      },
+      {
+        "id": 2,
+        "kind": "click",
+        "label": "Cart"
+      },
+      {
+        "id": 3,
+        "kind": "click",
+        "label": "Orders"
+      },
+      {
+        "id": 4,
+        "kind": "click",
+        "label": "Add Clothes to Cart"
+      },
+      {
+        "id": 5,
+        "kind": "click",
+        "label": "Add Shoes to Cart"
+      },
+      {
+        "id": 6,
+        "kind": "click",
+        "label": "Add Bag to Cart"
+      }
+    ],
+    "llm_command": "CLICK 5",
+    "time": "2025-09-27T04:28:49.404Z"
+  },
+  {
+    "step": 4,
+    "url": "http://localhost:8080/product.html",
+    "state": "PRODUCTS",
+    "actions": [
+      {
+        "id": 0,
+        "kind": "click",
+        "label": "Home"
+      },
+      {
+        "id": 1,
+        "kind": "click",
+        "label": "Products"
+      },
+      {
+        "id": 2,
+        "kind": "click",
+        "label": "Cart"
+      },
+      {
+        "id": 3,
+        "kind": "click",
+        "label": "Orders"
+      },
+      {
+        "id": 4,
+        "kind": "click",
+        "label": "Add Clothes to Cart"
+      },
+      {
+        "id": 5,
+        "kind": "click",
+        "label": "Add Shoes to Cart"
+      },
+      {
+        "id": 6,
+        "kind": "click",
+        "label": "Add Bag to Cart"
+      }
+    ],
+    "llm_command": "CLICK 6",
+    "time": "2025-09-27T04:29:15.066Z"
+  },
+  {
+    "step": 5,
+    "url": "http://localhost:8080/product.html",
+    "state": "PRODUCTS",
+    "actions": [
+      {
+        "id": 0,
+        "kind": "click",
+        "label": "Home"
+      },
+      {
+        "id": 1,
+        "kind": "click",
+        "label": "Products"
+      },
+      {
+        "id": 2,
+        "kind": "click",
+        "label": "Cart"
+      },
+      {
+        "id": 3,
+        "kind": "click",
+        "label": "Orders"
+      },
+      {
+        "id": 4,
+        "kind": "click",
+        "label": "Add Clothes to Cart"
+      },
+      {
+        "id": 5,
+        "kind": "click",
+        "label": "Add Shoes to Cart"
+      },
+      {
+        "id": 6,
+        "kind": "click",
+        "label": "Add Bag to Cart"
+      }
+    ],
+    "llm_command": "CLICK 2",
+    "time": "2025-09-27T04:29:40.871Z"
+  },
+  {
+    "step": 6,
+    "url": "http://localhost:8080/cart.html",
+    "state": "PRODUCTS",
+    "actions": [
+      {
+        "id": 0,
+        "kind": "click",
+        "label": "Home"
+      },
+      {
+        "id": 1,
+        "kind": "click",
+        "label": "Products"
+      },
+      {
+        "id": 2,
+        "kind": "click",
+        "label": "Cart"
+      },
+      {
+        "id": 3,
+        "kind": "click",
+        "label": "Orders"
+      },
+      {
+        "id": 4,
+        "kind": "click",
+        "label": "Place Order"
+      }
+    ],
+    "llm_command": "CLICK 4",
+    "time": "2025-09-27T04:29:42.918Z"
+  },
+  {
+    "step": 7,
+    "url": "http://localhost:8080/cart.html",
+    "state": "CART",
+    "actions": [
+      {
+        "id": 0,
+        "kind": "click",
+        "label": "Home"
+      },
+      {
+        "id": 1,
+        "kind": "click",
+        "label": "Products"
+      },
+      {
+        "id": 2,
+        "kind": "click",
+        "label": "Cart"
+      },
+      {
+        "id": 3,
+        "kind": "click",
+        "label": "Orders"
+      },
+      {
+        "id": 4,
+        "kind": "click",
+        "label": "Place Order"
+      }
+    ],
+    "llm_command": "CLICK 3",
+    "time": "2025-09-27T04:30:08.414Z"
+  },
+  {
+    "step": 8,
+    "url": "http://localhost:8080/orders.html",
+    "state": "CART",
+    "actions": [
+      {
+        "id": 0,
+        "kind": "click",
+        "label": "Home"
+      },
+      {
+        "id": 1,
+        "kind": "click",
+        "label": "Products"
+      },
+      {
+        "id": 2,
+        "kind": "click",
+        "label": "Cart"
+      },
+      {
+        "id": 3,
+        "kind": "click",
+        "label": "Orders"
+      },
+      {
+        "id": 4,
+        "kind": "click",
+        "label": "Delete Order"
+      }
+    ],
+    "llm_command": "CLICK 4",
+    "time": "2025-09-27T04:30:30.836Z"
+  },
+  {
+    "step": 9,
+    "url": "http://localhost:8080/orders.html",
+    "state": "ORDERS",
+    "actions": [
+      {
+        "id": 0,
+        "kind": "click",
+        "label": "Home"
+      },
+      {
+        "id": 1,
+        "kind": "click",
+        "label": "Products"
+      },
+      {
+        "id": 2,
+        "kind": "click",
+        "label": "Cart"
+      },
+      {
+        "id": 3,
+        "kind": "click",
+        "label": "Orders"
+      }
+    ],
+    "llm_command": "STOP",
+    "time": "2025-09-27T04:30:56.087Z"
+  }
+]
