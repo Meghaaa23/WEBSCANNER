@@ -1,11 +1,11 @@
 // sensors.js
 module.exports = async function sense(page) {
+  // Run inside the page and return an abstract view of actions
   return await page.evaluate(() => {
     const visible = el => {
       const r = el.getBoundingClientRect();
       const cs = getComputedStyle(el);
-      return r.width > 0 && r.height > 0 &&
-             cs.visibility !== 'hidden' && cs.display !== 'none';
+      return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none';
     };
 
     const labelOf = el =>

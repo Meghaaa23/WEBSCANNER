@@ -2,377 +2,140 @@
   {
     "step": 1,
     "url": "http://localhost:8080/index.html",
-    "state": "HOME",
-    "actions": [
-      {
-        "id": 0,
-        "kind": "click",
-        "label": "Home"
-      },
-      {
-        "id": 1,
-        "kind": "click",
-        "label": "Products"
-      },
-      {
-        "id": 2,
-        "kind": "click",
-        "label": "Cart"
-      },
-      {
-        "id": 3,
-        "kind": "click",
-        "label": "Orders"
-      },
-      {
-        "id": 4,
-        "kind": "click",
-        "label": "Shop Now"
-      },
-      {
-        "id": 5,
-        "kind": "click",
-        "label": "Shop Now"
-      },
-      {
-        "id": 6,
-        "kind": "click",
-        "label": "View"
-      },
-      {
-        "id": 7,
-        "kind": "click",
-        "label": "View"
-      },
-      {
-        "id": 8,
-        "kind": "click",
-        "label": "View"
-      },
-      {
-        "id": 9,
-        "kind": "click",
-        "label": "View"
-      },
-      {
-        "id": 10,
-        "kind": "click",
-        "label": "View"
-      },
-      {
-        "id": 11,
-        "kind": "click",
-        "label": "View"
-      }
-    ],
-    "llm_command": "CLICK 1",
-    "time": "2025-09-27T04:28:42.248Z"
+    "stage": "ORDERS",
+    "command": "CLICK 1",
+    "time": "2025-10-23T16:37:45.784Z",
+    "screenshotPre": "screenshots/step-01-pre.png",
+    "screenshotPost": "screenshots/step-01-post.png",
+    "xssDetected": false
   },
   {
     "step": 2,
-    "url": "http://localhost:8080/product.html",
-    "state": "HOME",
-    "actions": [
-      {
-        "id": 0,
-        "kind": "click",
-        "label": "Home"
-      },
-      {
-        "id": 1,
-        "kind": "click",
-        "label": "Products"
-      },
-      {
-        "id": 2,
-        "kind": "click",
-        "label": "Cart"
-      },
-      {
-        "id": 3,
-        "kind": "click",
-        "label": "Orders"
-      },
-      {
-        "id": 4,
-        "kind": "click",
-        "label": "Add Clothes to Cart"
-      },
-      {
-        "id": 5,
-        "kind": "click",
-        "label": "Add Shoes to Cart"
-      },
-      {
-        "id": 6,
-        "kind": "click",
-        "label": "Add Bag to Cart"
-      }
-    ],
-    "llm_command": "CLICK 4",
-    "time": "2025-09-27T04:28:44.323Z"
+    "url": "http://localhost:8080/orders.html",
+    "stage": "CART",
+    "command": "CLICK 0",
+    "time": "2025-10-23T16:37:47.431Z",
+    "screenshotPre": "screenshots/step-02-pre.png",
+    "screenshotPost": "screenshots/step-02-post.png",
+    "xssDetected": false
   },
   {
     "step": 3,
-    "url": "http://localhost:8080/product.html",
-    "state": "PRODUCTS",
-    "actions": [
-      {
-        "id": 0,
-        "kind": "click",
-        "label": "Home"
-      },
-      {
-        "id": 1,
-        "kind": "click",
-        "label": "Products"
-      },
-      {
-        "id": 2,
-        "kind": "click",
-        "label": "Cart"
-      },
-      {
-        "id": 3,
-        "kind": "click",
-        "label": "Orders"
-      },
-      {
-        "id": 4,
-        "kind": "click",
-        "label": "Add Clothes to Cart"
-      },
-      {
-        "id": 5,
-        "kind": "click",
-        "label": "Add Shoes to Cart"
-      },
-      {
-        "id": 6,
-        "kind": "click",
-        "label": "Add Bag to Cart"
-      }
-    ],
-    "llm_command": "CLICK 5",
-    "time": "2025-09-27T04:28:49.404Z"
+    "url": "http://localhost:8080/index.html",
+    "stage": "PRODUCTS",
+    "command": "CLICK 2",
+    "time": "2025-10-23T16:37:50.117Z",
+    "screenshotPre": "screenshots/step-03-pre.png",
+    "screenshotPost": "screenshots/step-03-post.png",
+    "xssDetected": false
   },
   {
     "step": 4,
-    "url": "http://localhost:8080/product.html",
-    "state": "PRODUCTS",
-    "actions": [
-      {
-        "id": 0,
-        "kind": "click",
-        "label": "Home"
-      },
-      {
-        "id": 1,
-        "kind": "click",
-        "label": "Products"
-      },
-      {
-        "id": 2,
-        "kind": "click",
-        "label": "Cart"
-      },
-      {
-        "id": 3,
-        "kind": "click",
-        "label": "Orders"
-      },
-      {
-        "id": 4,
-        "kind": "click",
-        "label": "Add Clothes to Cart"
-      },
-      {
-        "id": 5,
-        "kind": "click",
-        "label": "Add Shoes to Cart"
-      },
-      {
-        "id": 6,
-        "kind": "click",
-        "label": "Add Bag to Cart"
-      }
-    ],
-    "llm_command": "CLICK 6",
-    "time": "2025-09-27T04:29:15.066Z"
+    "url": "http://localhost:8080/cart.html",
+    "stage": "PRODUCTS",
+    "command": "CLICK 0",
+    "time": "2025-10-23T16:37:52.436Z",
+    "screenshotPre": "screenshots/step-04-pre.png",
+    "screenshotPost": "screenshots/step-04-post.png",
+    "xssDetected": false
   },
   {
     "step": 5,
-    "url": "http://localhost:8080/product.html",
-    "state": "PRODUCTS",
-    "actions": [
-      {
-        "id": 0,
-        "kind": "click",
-        "label": "Home"
-      },
-      {
-        "id": 1,
-        "kind": "click",
-        "label": "Products"
-      },
-      {
-        "id": 2,
-        "kind": "click",
-        "label": "Cart"
-      },
-      {
-        "id": 3,
-        "kind": "click",
-        "label": "Orders"
-      },
-      {
-        "id": 4,
-        "kind": "click",
-        "label": "Add Clothes to Cart"
-      },
-      {
-        "id": 5,
-        "kind": "click",
-        "label": "Add Shoes to Cart"
-      },
-      {
-        "id": 6,
-        "kind": "click",
-        "label": "Add Bag to Cart"
-      }
-    ],
-    "llm_command": "CLICK 2",
-    "time": "2025-09-27T04:29:40.871Z"
+    "url": "http://localhost:8080/index.html",
+    "stage": "PRODUCTS",
+    "command": "CLICK 4",
+    "time": "2025-10-23T16:37:55.006Z",
+    "screenshotPre": "screenshots/step-05-pre.png",
+    "screenshotPost": "screenshots/step-05-post.png",
+    "xssDetected": false
   },
   {
     "step": 6,
-    "url": "http://localhost:8080/cart.html",
-    "state": "PRODUCTS",
-    "actions": [
-      {
-        "id": 0,
-        "kind": "click",
-        "label": "Home"
-      },
-      {
-        "id": 1,
-        "kind": "click",
-        "label": "Products"
-      },
-      {
-        "id": 2,
-        "kind": "click",
-        "label": "Cart"
-      },
-      {
-        "id": 3,
-        "kind": "click",
-        "label": "Orders"
-      },
-      {
-        "id": 4,
-        "kind": "click",
-        "label": "Place Order"
-      }
-    ],
-    "llm_command": "CLICK 4",
-    "time": "2025-09-27T04:29:42.918Z"
+    "url": "http://localhost:8080/product.html",
+    "stage": "PRODUCTS",
+    "command": "CLICK 2",
+    "time": "2025-10-23T16:37:57.197Z",
+    "screenshotPre": "screenshots/step-06-pre.png",
+    "screenshotPost": "screenshots/step-06-post.png",
+    "xssDetected": false
   },
   {
     "step": 7,
-    "url": "http://localhost:8080/cart.html",
-    "state": "CART",
-    "actions": [
-      {
-        "id": 0,
-        "kind": "click",
-        "label": "Home"
-      },
-      {
-        "id": 1,
-        "kind": "click",
-        "label": "Products"
-      },
-      {
-        "id": 2,
-        "kind": "click",
-        "label": "Cart"
-      },
-      {
-        "id": 3,
-        "kind": "click",
-        "label": "Orders"
-      },
-      {
-        "id": 4,
-        "kind": "click",
-        "label": "Place Order"
-      }
-    ],
-    "llm_command": "CLICK 3",
-    "time": "2025-09-27T04:30:08.414Z"
+    "url": "http://localhost:8080/product.html",
+    "stage": "PRODUCTS",
+    "command": "CLICK 3",
+    "time": "2025-10-23T16:38:02.427Z",
+    "screenshotPre": "screenshots/step-07-pre.png",
+    "screenshotPost": "screenshots/step-07-post.png",
+    "xssDetected": false
   },
   {
     "step": 8,
-    "url": "http://localhost:8080/orders.html",
-    "state": "CART",
-    "actions": [
-      {
-        "id": 0,
-        "kind": "click",
-        "label": "Home"
-      },
-      {
-        "id": 1,
-        "kind": "click",
-        "label": "Products"
-      },
-      {
-        "id": 2,
-        "kind": "click",
-        "label": "Cart"
-      },
-      {
-        "id": 3,
-        "kind": "click",
-        "label": "Orders"
-      },
-      {
-        "id": 4,
-        "kind": "click",
-        "label": "Delete Order"
-      }
-    ],
-    "llm_command": "CLICK 4",
-    "time": "2025-09-27T04:30:30.836Z"
+    "url": "http://localhost:8080/product.html",
+    "stage": "PRODUCTS",
+    "command": "CLICK 4",
+    "time": "2025-10-23T16:38:07.609Z",
+    "screenshotPre": "screenshots/step-08-pre.png",
+    "screenshotPost": "screenshots/step-08-post.png",
+    "xssDetected": false
   },
   {
     "step": 9,
+    "url": "http://localhost:8080/product.html",
+    "stage": "PRODUCTS",
+    "command": "CLICK 5",
+    "time": "2025-10-23T16:38:12.743Z",
+    "screenshotPre": "screenshots/step-09-pre.png",
+    "screenshotPost": "screenshots/step-09-post.png",
+    "xssDetected": false
+  },
+  {
+    "step": 10,
+    "url": "http://localhost:8080/product.html",
+    "stage": "FINALIZE",
+    "command": "CLICK 1",
+    "time": "2025-10-23T16:38:17.857Z",
+    "screenshotPre": "screenshots/step-10-pre.png",
+    "screenshotPost": "screenshots/step-10-post.png",
+    "xssDetected": false
+  },
+  {
+    "step": 11,
+    "url": "http://localhost:8080/cart.html",
+    "stage": "PRODUCTS",
+    "command": "CLICK 5",
+    "time": "2025-10-23T16:38:19.586Z",
+    "screenshotPre": "screenshots/step-11-pre.png",
+    "screenshotPost": "screenshots/step-11-post.png",
+    "xssDetected": false
+  },
+  {
+    "step": 12,
     "url": "http://localhost:8080/orders.html",
-    "state": "ORDERS",
-    "actions": [
-      {
-        "id": 0,
-        "kind": "click",
-        "label": "Home"
-      },
-      {
-        "id": 1,
-        "kind": "click",
-        "label": "Products"
-      },
-      {
-        "id": 2,
-        "kind": "click",
-        "label": "Cart"
-      },
-      {
-        "id": 3,
-        "kind": "click",
-        "label": "Orders"
-      }
-    ],
-    "llm_command": "STOP",
-    "time": "2025-09-27T04:30:56.087Z"
+    "stage": "FEEDBACK",
+    "command": "FORM_FEEDBACK",
+    "time": "2025-10-23T16:38:22.686Z",
+    "screenshotPre": "screenshots/step-12-pre.png",
+    "screenshotPost": "screenshots/step-12-post.png",
+    "xssDetected": true
+  },
+  {
+    "step": 12.1,
+    "url": "http://localhost:8080/feedback.html",
+    "stage": "FEEDBACK",
+    "command": "XSS_EVIDENCE",
+    "xssDetected": true,
+    "time": "2025-10-23T16:38:24.541Z",
+    "screenshotPre": null,
+    "screenshotPost": "screenshots/xss-step-12.png"
+  },
+  {
+    "step": "final",
+    "url": "http://localhost:8080/feedback.html",
+    "stage": "STOP",
+    "command": "FINAL_CAPTURE",
+    "time": "2025-10-23T16:38:24.711Z",
+    "screenshotPre": null,
+    "screenshotPost": "screenshots/step-final-capture.png"
   }
 ]
